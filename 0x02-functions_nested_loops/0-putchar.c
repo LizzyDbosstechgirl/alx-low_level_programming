@@ -4,6 +4,7 @@
  *
  * Return: End Program
  */
+
 int main(void)
 {
 	char string[8] = "_putchar";
@@ -11,14 +12,11 @@ int main(void)
 
 	while (n < 8)
 	{
-
 	_putchar(string[n]);
 	++n;
 	}
-	
 	_putchar(10);
-	return(0)
-
+	return(0);
 }
 
  
