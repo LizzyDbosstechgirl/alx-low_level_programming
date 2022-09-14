@@ -1,22 +1,21 @@
-#include "holberton.h"
-
-/**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
-int main(void)
-{
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
-	_putchar('n');
-	_putchar('\n');
-
-	return (0);
-}
+#include "main.h" 
+ /** 
+  * main - main function 
+  * 
+  * Return: End program 
+  */ 
+ int main(void) 
+ { 
+         char string[8] = "_putchar"; 
+         int n = 0; 
+  
+         while (n < 8) 
+         { 
+                 _putchar(string[n]); 
+                 ++n; 
+         } 
+  
+         _putchar(10); 
+         return (0); 
+  
+ }
