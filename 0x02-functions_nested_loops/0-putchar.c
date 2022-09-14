@@ -1,21 +1,24 @@
 #include "main.h"
 /**
- * main -_main function
+ * main -main function
  *
- * Return: End program
+ * Return: End Program
  */
 int main(void)
 {
-	char string[8] = "-putchar";
-	int n =0;
+	char string[8] = "_putchar";
+	int n = 0;
 
 	while (n < 8)
 	{
-		-putchar(string[n];
-				++n;
-				}
 
-				-putchar(10);
-				return (0);
+		_putchar(string[n]);
+		++n;
+	}
+	
+	_putchar(10);
+	return(0)
 
-				}
+}
+
+ 
